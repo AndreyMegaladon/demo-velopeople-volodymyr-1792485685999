@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeloPeople - Велосипеди з Європи у Володимирі</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b h-20 flex items-center shadow-sm">
+        <div class="max-w-6xl mx-auto w-full px-6 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-gray-900 flex items-center gap-2">
+                <span class="text-[#4CAF50]">Velo</span>People
+            </a>
+            <nav class="hidden md:flex gap-2 items-center">
+                <a href="index.html" class="bg-amber-500 text-white rounded-lg px-4 py-2 font-medium">Головна</a>
+                <a href="about.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Про нас</a>
+                <a href="services.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Меню</a>
+                <a href="gallery.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Галерея</a>
+                <a href="booking.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Бронювання</a>
+                <a href="contacts.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Контакти</a>
+            </nav>
+            <a href="booking.html" class="bg-[#4CAF50] hover:bg-[#43A047] text-white px-5 py-2.5 rounded-xl font-semibold shadow-md transition md:hidden">Бронювати</a>
+        </div>
+    </header>
+
+    <section class="min-h-[80vh] relative bg-cover bg-center flex items-center justify-center text-center px-6" style="background-image: url('https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=1920&q=80')">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative z-10 max-w-4xl mx-auto text-white">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">Велосипеди з Європи у Володимирі</h1>
+            <p class="text-lg md:text-xl mb-8 text-gray-200 max-w-2xl mx-auto">Якісні вживані велосипеди з Німеччини та оригінальні велозапчастини від світових брендів у VeloPeople.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="services.html" class="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-2xl transition">Переглянути каталог</a>
+                <a href="booking.html" class="bg-white hover:bg-gray-100 text-gray-900 px-8 py-4 rounded-xl text-lg font-semibold shadow-2xl transition">Забронювати вело</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4">Популярні категорії товарів</h2>
+            <p class="text-gray-600 max-w-xl mx-auto">Обирайте надійні європейські велосипеди та якісні запчастини для комфортної їзди.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80" alt="Міські велосипеди" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Міські велосипеди</h3>
+                    <p class="text-gray-600 mb-4">Ідеальний вибір для щоденних поїздок містом, зручні та надійні моделі з Німеччини.</p>
+                    <a href="services.html" class="text-amber-600 font-semibold hover:underline">Дізнатися більше &rarr;</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80" alt="Гірські велосипеди" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Гірські велосипеди (MTB)</h3>
+                    <p class="text-gray-600 mb-4">Для активного відпочинку, подорожей та складних маршрутів за містом.</p>
+                    <a href="services.html" class="text-amber-600 font-semibold hover:underline">Дізнатися більше &rarr;</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1511994298241-608e28f14fde?auto=format&fit=crop&w=800&q=80" alt="Велозапчастини" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Оригінальні запчастини</h3>
+                    <p class="text-gray-600 mb-4">Широкий асортимент компонентів та аксесуарів від провідних світових брендів.</p>
+                    <a href="services.html" class="text-amber-600 font-semibold hover:underline">Дізнатися більше &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-amber-500 text-white rounded-3xl p-10 md:p-16 flex flex-col md:flex-row items-center justify-between shadow-xl">
+            <div class="mb-6 md:mb-0 md:max-w-xl">
+                <h3 class="text-3xl font-bold mb-4">Маєте питання щодо вибору велосипеда?</h3>
+                <p class="text-amber-100 text-lg">Завітайте до нашого магазину у Володимирі або зв'яжіться з нами телефоном.</p>
+            </div>
+            <a href="contacts.html" class="bg-white text-gray-900 px-8 py-4 rounded-xl font-bold hover:bg-gray-100 transition shadow-lg">Зв'язатися з нами</a>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">VeloPeople</h3>
+                <p class="text-sm text-gray-400">Якісні вживані велосипеди з Європи та запчастини у Володимирі.</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold text-white mb-4">Контакти</h4>
+                <p class="text-sm mb-2">вулиця Степана Бандери, 5, Володимир</p>
+                <p class="text-sm mb-2">Телефон: +380661100562</p>
+                <p class="text-sm">Email: info@velopeople.ua</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold text-white mb-4">Графік роботи</h4>
+                <p class="text-sm mb-2">Пн-Пт: 10:00 – 18:00</p>
+                <p class="text-sm mb-2">Сб: 10:00 – 16:00</p>
+                <p class="text-sm">Нд: Вихідний</p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-6 border-t border-gray-800 mt-8 pt-6 text-center text-sm text-gray-500">
+            &copy; 2026 VeloPeople. Всі права захищені.
+        </div>
+    </footer>
+<script>
+    document.getElementById('mobile-toggle')?.addEventListener('click', function() {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>
